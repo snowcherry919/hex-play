@@ -1,0 +1,373 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.wrap {
+    max-width: 1980px;
+    width: 1024px;
+    margin: auto;
+}
+
+.banner {
+    background-image: url('/play/image/the-urban-landscape-1698285.png');
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 380px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 3.89px;
+    padding: 90px 380px;
+}
+
+#town {
+    width: 452px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    margin: 0 293px 0;
+    color: #000;
+    font-size: 18px;
+}
+
+.hotDis {
+    width: 800px;
+    height: 112px;
+    margin: auto;
+    background-color: #fff;
+    /* display: flex; */
+    border-radius: 5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    position: absolute;
+    top: 352px;
+    left: 0;
+    right: 0;
+}
+
+.hotDis h2 {
+    font-size: 18px;
+    color: #000;
+    padding: 20px 0 14px 26px;
+}
+
+.hotDis input {
+    width: 130px;
+    height: 42px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+#Lingya {
+    background: #8A82CC;
+    margin-left: 51px;
+}
+
+#Sanmin {
+    background: #ffa782;
+    margin-left: 30px;
+}
+
+#Xinxing {
+    background: #f5d005;
+    margin-left: 30px;
+}
+
+#Yancheng {
+    background: #559ac8;
+    margin-left: 30px;
+}
+
+.seperate {
+    position: relative;
+}
+
+.seperate::after {
+    position: absolute;
+    content: "";
+    top: 130px;
+    width: 900px;
+    left: 60px;
+    border: 1px dashed #559AC8;
+}
+
+.seperate-img {
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url(/play/image/icons_down.png );
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    z-index: 1;
+}
+
+.title {
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 200px;
+    /* display: inline; */
+}
+
+.main {
+    width: 1024px;
+}
+
+.toppic {
+    width: 100%;
+    height: 155px;
+}
+
+.main li {
+    width: 464px;
+}
+
+.main .ul-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.ul-list li {
+    position: relative;
+}
+
+.ul-list h3 {
+    position: absolute;
+    left: 22px;
+    top: 117px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.ul-list span {
+    position: absolute;
+    left: 391px;
+    top: 125px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.ul-detail {
+    background: #FFFFFF;
+    margin-bottom: 36px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+.ul-detail li {
+    display: flex;
+    padding: 8px 0;
+}
+
+.ul-detail li p {
+    white-space: nowrap;
+    /*強制不換行*/
+    overflow: hidden;
+    /*超過隱藏*/
+    text-overflow: ellipsis;
+    /*顯示...*/
+}
+
+.ul-detail li img {
+    padding-right: 10px;
+    padding-left: 23px;
+}
+
+.tagpic img {
+    padding-left: 26px;
+}
+
+.tagpic2 {
+    display: inline;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.page_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.page_btn span {
+    width: 20px;
+    border: 1px solid #559ac8;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+    color: #559ac8;
+}
+
+.page_btn span:hover {
+    background-color: #559ac8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #559ac8;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 24px 477px 15px;
+}
+
+.footer span {
+    display: block;
+    color: #ffd366;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 23px;
+}
